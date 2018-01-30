@@ -13,7 +13,7 @@ To use this buildpack, you should prepare .buildpacks file that contains this bu
     ...
     
     $ cat .buildpacks
-    https://github.com/Litterfeldt/heroku-buildpack-ffmpeg-x264-fdk_aac
+    https://github.com/jwoodrow/heroku-buildpack-ffmpeg-x264-fdk_aac
     https://github.com/heroku/heroku-buildpack-play
 
     $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi
